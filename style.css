@@ -2,3 +2,99 @@ body{
     margin: 0px;
     font-family: 'Rubik', sans-serif;
 }
+.container-flexible{
+    display: flex;
+}
+h1{
+    font-size: 50px;
+}
+.Tomato-color{
+    color: tomato;
+}
+.half-width{
+    width: 50%;
+    padding-left: 2%;
+}
+.half-width img{
+    width: 80%;
+}
+.button-origin{
+    background-image: linear-gradient(orange, tomato);
+    background-color: tomato;
+    padding: 10px 40px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: white;
+}
+.half-width p{
+    margin-bottom: 50px;
+    color: gray;
+}
+.header-area{
+    height: 700px;
+    background-image: url("image/header-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.biography-area{
+    height: 700px;
+    background-image: url("image/biography-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bio-personal{
+    margin-top: 100px;
+}
+.work{
+    text-align: center;
+}
+.image-section{
+    width: 30%;
+    padding-left: 2%;
+    text-align: center;
+    margin-top: 125px;
+}
+.image-section img{
+    width: 90%;
+    box-shadow: 10px 10px 40px gray;
+}
+.work-area{
+    height: 700px;
+    background-image: url("image/latest-work-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.for-client{
+    margin-bottom: 100px;
+}
+.name{
+    margin-bottom: 50px;
+}
+.aboutme{
+    margin-bottom: 150px;
+}
+.footer-ber{
+    text-align: center;
+}
+.button-footer{
+    text-align: center;
+}
+button{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 10px 10px 40px gray;
+    border: none;
+}
+.footer-area{
+    height: 700px;
+    background-image: url("image/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+footer{
+    text-align: center;
+    color: gray;
+}
